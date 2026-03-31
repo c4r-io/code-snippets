@@ -4,22 +4,24 @@ This procedure describes how to embed code into the book versions of units.
 
 1. Upload a script file to the code-snippets repository - <https://github.com/c4r-io/code-snippets> 
 
-2. When viewing the file on github in a web browser, click the Raw button:
-![raw-button.png](screenshot of github with `raw` button)
+2. The script file should, in its filename, clearly delineate which unit, lesson, and/or location it is used (to help organize the files.)
 
-3. Copy the URL in the web browser. This is a direct link to the code file.
+3. When viewing the file on github in a web browser, click the Raw button:
+![screenshot of github with `raw` button](raw-button.png)
+
+4. Copy the URL in the web browser. This is a direct link to the code file.
 
 We can now move to shorthand!
 
-4. In Shorthand, go to the "story" with the relevant lesson.
+5. In Shorthand, go to the "story" with the relevant lesson.
 
-5. Navigate to the appropriate location in the lesson, and where the code snippet should go, make sure that it is a section boundary. (This may require splitting an existing text section into separate sections.)
+6. Navigate to the appropriate location in the lesson, and where the code snippet should go, make sure that it is a section boundary. (This may require splitting an existing text section into separate sections.)
 
-6. Click on the `+` button to add a new section. Under the Default options, scroll down to the bottom to `Custom HTML`
+7. Click on the `+` button to add a new section. Under the Default options, scroll down to the bottom to `Custom HTML`
 
-7. In the resulting HTML box, copy-paste the following block.
+8. In the resulting HTML box, copy-paste the following block.
 
-8. Make sure to set the programming language and the code file as appropriate in the middle of the code block.
+9. Make sure to set the programming language and the code file as appropriate in the middle of the code block.
 
 ```
 <!-- Highlight.js CSS -->
@@ -48,8 +50,10 @@ We can now move to shorthand!
   }
 </style>
 
+<!-- FIX THE LANGUAGE BELOW IF NEEDED -->
 <pre><code id="raw-code" class="language-python"></code></pre>
 
+<!-- REPLACE THE URL WITH THE CODEFILE LINK -->
 <script>
   const rawUrl = 'https://raw.githubusercontent.com/c4r-io/code-snippets/refs/heads/main/hms-cod-01_test.py';
 

@@ -5,7 +5,7 @@ This procedure describes how to embed code into the book versions of units.
 1. Upload a script file to the code-snippets repository - <https://github.com/c4r-io/code-snippets> 
 
 2. When viewing the file on github in a web browser, click the Raw button:
-![raw-button.png](screenshot of github with `raw` button)
+![screenshot of github with `raw` button](raw-button.png)
 
 3. Copy the URL in the web browser. This is a direct link to the code file.
 

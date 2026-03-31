@@ -51,7 +51,7 @@ We can now move to shorthand!
 <pre><code id="raw-code" class="language-python"></code></pre>
 
 <script>
-  const rawUrl = 'https://raw.githubusercontent.com/c4r-io/code-snippets/refs/heads/main/test.py';
+  const rawUrl = 'https://raw.githubusercontent.com/c4r-io/code-snippets/refs/heads/main/hms-cod-01_test.py';
 
   fetch(rawUrl)
     .then(response => {

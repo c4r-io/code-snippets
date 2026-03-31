@@ -48,8 +48,10 @@ We can now move to shorthand!
   }
 </style>
 
+<!-- FIX THE LANGUAGE BELOW IF NEEDED -->
 <pre><code id="raw-code" class="language-python"></code></pre>
 
+<!-- REPLACE THE URL WITH THE CODEFILE LINK -->
 <script>
   const rawUrl = 'https://raw.githubusercontent.com/c4r-io/code-snippets/refs/heads/main/test.py';
 
